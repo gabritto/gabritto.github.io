@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Gabriela Araujo Britto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1>Gabriela Araujo Britto</h1>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#whoiam" class="active">Who I am</a></li>
+							<li><a href="#academic">Academic</a></li>
+							<li><a href="#industry">Industry</a></li>
+							<li><a href="#competencies">Competencies</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="personal.html">Personal</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="whoiam" class="main special">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Who I am</h2>
+										</header>
+										<p>
+											I am a brazilian Software Engineer,
+											mostly interested in Programming Languages, Type Theory, and Mathematics overall.
+											<br>
+											My career goal is to improve the way people read, write and modify computer programs.
+										</p>
+										<!-- <ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul> -->
+									</div>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="academic" class="main special">
+								<header class="major">
+									<h2>Academic</h2>
+								</header>
+								<ul class="alt">
+									<li>
+										<h2>Formal education</h2>
+										<p>
+											I graduated in December 2020 with a <strong>Bachelor's Degree in Computer Engineering</strong> from the
+											<a href="https://www.ufpe.br/">Federal University of Pernambuco</a>, Brazil.
+										</p>
+									</li>
+									<li>
+										<h2>Honors (Undergraduate) Thesis</h2>
+										<p>
+											During my last semester, <strong>I did research on how to check if automated refactorings preserve program behavior.
+											To address this problem, I decided to adopt a testing approach, and to focus on
+											<a href="https://www.typescriptlang.org/">TypeScript</a> refactorings.</strong>
+											<br>
+											To test a refactoring, we need a test input, in this case a program, and a test oracle.
+											The idea behind my research project is to <strong>test refactorings by automatically generating programs 
+											that can be used as test inputs.</strong>
+											And, as a proxy for behavior preservation,
+											<stong>I used the TypeScript compiler as a test oracle,</stong>
+											checking if the input programs that were compilable still remained compilable after refactoring.
+											<br>
+											I implemented this technique in a tool called
+											<a href="https://github.com/gabritto/tsdolly">TSDolly</a>.
+    										Using TSDolly, I was able to find and report 
+											<a href="https://github.com/microsoft/TypeScript/issues/40994">one bug</a> in a TypeScript refactoring.
+											<br>
+											My advisor was <a href="https://cin.ufpe.br/~lmt/">Leopoldo Motta Teixeira</a>,
+											and the technique used in TSDolly was an adaptation of the one presented in
+											<a href="https://github.com/gustavoasoares/jdolly">JDolly</a>.
+											My thesis can be 
+											<a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_gab.pdf">found here</a> (in English, abstract also in Portuguese).
+										</p>
+									</li>
+									<li>
+										<h2>Teaching Assistant</h2>
+										<p>
+											<strong>I was a teaching assistant for a total of 5 semesters,</strong> for the courses of
+											Discrete Mathematics (2 semesters), Algorithms and Data Structures (2 semesters),
+											and Paradigms of Computational Languages (1 semester).
+											<br>
+											During that time, I taught extra classes, answered students' questions,
+											and came up with some extra assignments for the students to practice and learn.
+											I really enjoyed this experience of helping other students and giving back by sharing what I learned.
+										</p>
+									</li>
+									<li>
+										<h2>Competitive Programming</h2>
+										<p>
+											<strong>I was a member of the competitive programming team of my University between 2016 and 2017.</strong>
+											I competed in official ACM ICPC competitions at the sub-regional and regional level.
+											<br>
+											I mostly enjoyed this experience for the chance to discuss algorithms and data structures with other students,
+											and for the chance to work in a team (of 3) to solve the programming problems.
+										</p>
+									</li>
+								</ul>
+								<!-- <footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer> -->
+							</section>
+
+						<!-- Second Section -->
+							<section id="industry" class="main special">
+								<header class="major">
+									<h2>Industry</h2>
+								</header>
+								<h2>Internships</h2>
+								<p>
+									While I was a student, I worked as a Software Engineer Intern several times:
+								</p>
+								<ul class="alt">
+									<li>
+										<h2>TypeScript Compiler Team, Microsoft</h2>
+										<p>
+											<span class="icon fa fa-calendar" aria-hidden="true"></span> December 2019 - March 2020
+										</p>
+										<p>
+											<strong>I worked on improving <a href="https://github.com/DefinitelyTyped/dts-critic">dts-critic</a>,
+											a tool that checks the compatibility between a
+											TypeScript declaration file (a declarations-only file declaring variables, functions etc, and their types)
+											and a JavaScript library.</strong>
+											<br>I contributed additional checks for some of JavaScript's many ways to specify modules,
+											and their corresponding declaration pattern in TypeScript.
+											<br>dts-critic is used on the 
+											<a>DefinitelyTyped</a> repository, an open source collection of TypeScript declarations for JavaScript libraries,
+											written by the TypeScript community.
+											The tool runs as a part of the tests that are executed for every contribution to DefinitelyTyped,
+											aiming to improve the quality of contributed declarations.
+										</p>
+									</li>
+									<li>
+										<h2>TypeScript Compiler Team, Microsoft</h2>
+										<p>
+											<span class="icon fa fa-calendar" aria-hidden="true"></span> January 2019 - March 2019
+										</p>
+										<p>
+											<strong>I developed a 
+											<a href="https://github.com/microsoft/TypeScript/pull/30089">TypeScript refactoring</a> for emulating the 
+											<a href="https://en.wikipedia.org/wiki/Named_parameter">named parameters</a> language feature</strong>
+											(also known as named arguments or keyword arguments).
+											<br>
+											JavaScript, and therefore TypeScript, does not provide builtin support for named parameters.
+											A way to emulate this feature is to use an object as a function's parameter,
+											where each of the object's properties is a named/keyword parameter.
+											Then, the function can be called with an object argument, where each property of this argument object corresponds to a named (keyword) argument.
+										</p>
+										An illustrative example is that this refactoring would convert the code
+										<div class="content">
+											<pre>
+												<code>function getName(firstName: string, lastName: string) {
+	return firstName + " " + lastName;
+}
+getName("Barbara", "Liskov");</code>
+											</pre>
+										</div>
+										into
+										<div class="content">
+											<pre>
+												<code>function getName({ firstName: string, lastName: string }) {
+	return firstName + " " + lastName;
+}
+getName({ firstName: "Barbara", lastName: "Liskov" });</code>
+											</pre>
+										</div>
+										</p>
+									</li>
+									<li>
+										<h2>Test Infrastructure, Facebook</h2>
+										<p>
+											<span class="icon fa fa-calendar" aria-hidden="true"></span> September 2019 - November 2019
+										</p>
+										<p>
+											<strong>I implemented a concurrent caching service in Rust.</strong>
+											The service was part of the internal test infrastructure.
+											<br>
+											<strong>The main purpose of my internship was to 
+											assess the viability of implementing testing infrastructure services in Rust.</strong>
+											Before my internship, no one on the team had used Rust.
+											<br>
+											At the end of my internship, I reported on the state of the Rust ecosystem,
+											including the state of Rust's async/away features (on alpha at the time of my internship),
+											libraries, and Rust tooling.
+											I also reported on the state of internal Rust libraries,
+											what was already done and what still had to be improved before the team would adopt Rust.
+										</p>
+									</li>
+									<li>
+										<h2>Abuse Fighting Infrastructure, Google</h2>
+										<p>
+											<span class="icon fa fa-calendar" aria-hidden="true"></span> April 2019 - July 2019
+										</p>
+										<p>
+											<strong>I reimplemented and helped redesign a service from Google's internal abuse fighting infrastructure.</strong>
+											The service was originally written in Python, and I reimplemented the redesigned version in Go,
+											resulting in a considerable efficiency gain.
+										</p>
+									</li>
+									<li>
+										<h2>Reusable Components at Bing, Microsoft</h2>
+										<p>
+											<span class="icon fa fa-calendar" aria-hidden="true"></span> December 2017 - February 2018
+										</p>
+										<p>
+											<strong>I developed a front-end component used to display websites as an overlay on Bing's search results page.</strong>
+											The component displayed <a href="https://amp.dev/">AMP pages</a> to allow for fast loading times,
+											and it was displayed over the search results page to allow for easier navigation between different result pages.
+											The component was developed using C#, CSS, and TypeScript.
+										</p>
+									</li>
+								</ul>
+							</section>
+
+							<section id="competencies" class="main special">
+								<header class="major">
+									<h2>Competencies</h2>
+								</header>
+								<h2>Programming Languages & Tools</h2>
+								<p>
+									These are programming languages and tools I've used considerably in the past.
+									I also feel very confident that I can learn other languages if I must,
+									even languages with different paradigms.
+									<br>
+									The same applies for tools.
+								</p>
+								<p>
+									<em>Languages</em> (in order of decreasing familiarity)<em>:</em>
+									TypeScript, Haskell, Rust, Java, JavaScript, Python, C++ (11), C
+									<br>
+									<em>Tools:</em>
+									Git, VSCode, Node.js
+								</p>
+								<h2>Natural Languages</h2>
+								<p>
+									Native Portuguese, Fluent English, Beginner German (A2 level)
+								</p>
+								<h2>Computer Science and Mathematics</h2>
+								<p>
+									Here is a (non-exhaustive) list of other topics that I am interested in 
+									and have somewhat studied before, in no specific order:
+									<br>
+									Programming Languages, Type Theory, Category Theory, Algebra, 
+									Proof Assistants (mostly <a href="https://coq.inria.fr/">Coq</a>, 
+									a tiny bit of <a href="https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html">Agda</a>), 
+									Functional Programming,
+									<a href="https://alloytools.org/">Alloy</a> (a modeling language and model finder),
+									Refactorings.
+								</p>
+							</section>
+
+							<section id="contact" class="main special">
+								<header class="major">
+									<h2>Contact</h2>
+								</header>
+								<ul class="icons">
+									<li>
+										<a href="https://twitter.com/britto_gab" class="icon brands fa-twitter alt">
+											<span class="label">
+												Twitter
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/gabritto" class="icon brands fa-github alt">
+											<span class="label">
+												GitHub
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/in/gabriela-araujo-britto-12755b182/" class="icon brands fa-linkedin alt">
+											<span class="label">
+												LinkedIn
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="mailto:garaujobritto@gmail.com" class="icon fa-envelope alt">
+											<span class="label">
+												Email
+											</span>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+							<section id="personal" class="main special">
+								<a href="personal.html" class="button primary large">Personal</a>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Gabriela Araujo Britto. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
