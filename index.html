@@ -29,7 +29,7 @@
 							<li><a href="#whoiam" class="active">Who I am</a></li>
 							<li><a href="#academic">Academic</a></li>
 							<li><a href="#industry">Industry</a></li>
-							<li><a href="#competencies">Competencies</a></li>
+							<li><a href="#other">Other things</a></li>
 							<li><a href="#contact">Contact</a></li>
 							<li><a href="personal.html">Personal</a></li>
 						</ul>
@@ -67,13 +67,43 @@
 									<li>
 										<h2>Formal education</h2>
 										<p>
-											I graduated in December 2020 with a <strong>Bachelor's Degree in Computer Engineering</strong> from the
+											I graduated with honors in December 2020 with a
+											<strong>Bachelor's Degree in Computer Engineering</strong> from the
 											<a href="https://www.ufpe.br/">Federal University of Pernambuco</a>, Brazil.
 										</p>
 									</li>
 									<li>
-										<h2>Honors (Undergraduate) Thesis</h2>
+										<!-- <h2>Honors (Undergraduate) Thesis</h2> -->
+										<h2> Research: TSDolly </h2>
 										<p>
+											For my undergraduate thesis, I was motivated by an <a>internship experience</a>
+											to try and improve the quality of TypeScript automated refactorings.
+											Advised by <a href="https://cin.ufpe.br/~lmt/">Leopoldo Motta Teixeira</a>,
+											I researched how to test tools that modify TypeScript programs.
+											<br>
+											The result was <a href="https://github.com/gabritto/tsdolly">TSDolly</a>, a tool that generates TypeScript programs
+											which can be used as test inputs for testing tools.
+											The programs TSDolly generates satisfy preconditions imposed by the tools under test:
+											for example, to be able to test a refactoring that modifies a class,
+											we need to make sure the generated test input program actually has a class declaration.
+											<br>
+											TSDolly implements a technique that allows for generating programs that satisfy user-specified preconditions.
+											This technique was adapted from <a href="https://github.com/gustavoasoares/jdolly">previous work</a>
+											focused on generating Java programs suitable for testing Java automated refactorings.
+											<br>
+											Using TSDolly, I was able to find and report a
+											<a href="https://github.com/microsoft/TypeScript/issues/40994">bug</a> in a TypeScript refactoring.
+											<br>
+											My thesis can be found
+											<a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_gab.pdf">here</a> (in English, abstract also in Portuguese).
+											<br>
+											As a result of this undergraduate thesis work,
+											<a href="https://cin.ufpe.br/~lmt/">my advisor Leopoldo</a>, <a href="http://www.dsc.ufcg.edu.br/~rohit/">Rohit Gheyi</a>
+											and I wrote a paper to be published in the
+											<a href="http://cbsoft2021.joinville.udesc.br/sblp.php">25th Brazilian Symposium on Programming Languages (SBLP'21)</a>.
+											A <strong>preprint</strong> can be found <a href="images/SBLP_2021_TSDolly_AuthorVersion.pdf">here</a> (in English).
+										</p>
+										<!-- <p>
 											During my last semester, <strong>I did research on how to check if automated refactorings preserve program behavior.
 											To address this problem, I decided to adopt a testing approach, and to focus on
 											<a href="https://www.typescriptlang.org/">TypeScript</a> refactorings.</strong>
@@ -95,7 +125,7 @@
 											<a href="https://github.com/gustavoasoares/jdolly">JDolly</a>.
 											My thesis can be 
 											<a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_gab.pdf">found here</a> (in English, abstract also in Portuguese).
-										</p>
+										</p> -->
 									</li>
 									<li>
 										<h2>Teaching Assistant</h2>
@@ -107,16 +137,6 @@
 											During that time, I taught extra classes, answered students' questions,
 											and came up with some extra assignments for the students to practice and learn.
 											I really enjoyed this experience of helping other students and giving back by sharing what I learned.
-										</p>
-									</li>
-									<li>
-										<h2>Competitive Programming</h2>
-										<p>
-											<strong>I was a member of the competitive programming team of my University between 2016 and 2017.</strong>
-											I competed in official ACM ICPC competitions at the sub-regional and regional level.
-											<br>
-											I mostly enjoyed this experience for the chance to discuss algorithms and data structures with other students,
-											and for the chance to work in a team (of 3) to solve the programming problems.
 										</p>
 									</li>
 								</ul>
@@ -132,6 +152,10 @@
 								<header class="major">
 									<h2>Industry</h2>
 								</header>
+								<h2>Current</h2>
+								<p>
+									I currently work on the <strong>TypeScript team at Microsoft</strong>, as a Software Engineer. 
+								</p>
 								<h2>Internships</h2>
 								<p>
 									While I was a student, I worked as a Software Engineer Intern several times:
@@ -238,9 +262,9 @@ getName({ firstName: "Barbara", lastName: "Liskov" });</code>
 								</ul>
 							</section>
 
-							<section id="competencies" class="main special">
+							<section id="other" class="main special">
 								<header class="major">
-									<h2>Competencies</h2>
+									<h2>Other things</h2>
 								</header>
 								<h2>Programming Languages & Tools</h2>
 								<p>
