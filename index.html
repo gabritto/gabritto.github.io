@@ -45,12 +45,14 @@
 										<header class="major">
 											<h2>Who I am</h2>
 										</header>
-										<p>
-											I am a Brazilian <strong>Software Engineer</strong>,
-											mostly interested in Programming Languages, Type Theory, and Mathematics overall.
-											<br>
-											My career goal is to improve the way people read, write and modify computer programs.
-										</p>
+										<div class="txt">
+											<p>
+												I am a Brazilian <strong>Software Engineer</strong>,
+												mostly interested in Programming Languages, Type Theory, and Mathematics overall.
+											</p><p>
+												My career goal is to improve the way people read, write and modify computer programs.
+											</p>
+										</div>
 										<!-- <ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul> -->
@@ -66,43 +68,49 @@
 								<ul class="alt">
 									<li>
 										<h2>Formal education</h2>
-										<p>
-											I graduated with honors in December 2020 with a
-											<strong>Bachelor's Degree in Computer Engineering</strong> from the
-											<a href="https://www.ufpe.br/">Federal University of Pernambuco</a>, Brazil.
-										</p>
+										<div class="txt">
+											<p>
+												I graduated with honors in December 2020 with a
+												<strong>Bachelor's Degree in Computer Engineering</strong> from the
+												<a href="https://www.ufpe.br/">Federal University of Pernambuco</a>, Brazil.
+											</p>
+										</div>
 									</li>
 									<li>
 										<!-- <h2>Honors (Undergraduate) Thesis</h2> -->
 										<h2> Research: TSDolly </h2>
-										<p>
-											For my undergraduate thesis, I was motivated by an <a>internship experience</a>
-											to try and improve the quality of TypeScript automated refactorings.
-											Advised by <a href="https://cin.ufpe.br/~lmt/">Leopoldo Motta Teixeira</a>,
-											I researched how to test tools that modify TypeScript programs.
-											<br>
-											The result was <a href="https://github.com/gabritto/tsdolly">TSDolly</a>, a tool that generates TypeScript programs
-											which can be used as test inputs for testing tools.
-											The programs TSDolly generates satisfy preconditions imposed by the tools under test:
-											for example, to be able to test a refactoring that modifies a class,
-											we need to make sure the generated test input program actually has a class declaration.
-											<br>
-											TSDolly implements a technique that allows for generating programs that satisfy user-specified preconditions.
-											This technique was adapted from <a href="https://github.com/gustavoasoares/jdolly">previous work</a>
-											focused on generating Java programs suitable for testing Java automated refactorings.
-											<br>
-											Using TSDolly, I was able to find and report a
-											<a href="https://github.com/microsoft/TypeScript/issues/40994">bug</a> in a TypeScript refactoring.
-											<br>
-											My thesis can be found
-											<a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_gab.pdf">here</a> (in English, abstract also in Portuguese).
-											<br>
-											As a result of this undergraduate thesis work,
-											<a href="https://cin.ufpe.br/~lmt/">my advisor Leopoldo</a>, <a href="http://www.dsc.ufcg.edu.br/~rohit/">Rohit Gheyi</a>
-											and I wrote a paper to be published in the
-											<a href="http://cbsoft2021.joinville.udesc.br/sblp.php">25th Brazilian Symposium on Programming Languages (SBLP'21)</a>.
-											A <strong>preprint</strong> can be found <a href="images/SBLP_2021_TSDolly_AuthorVersion.pdf">here</a> (in English).
-										</p>
+										<div class="txt">
+											<p>
+												For my undergraduate thesis, I was motivated by an <a>internship experience</a>
+												to try and improve the quality of TypeScript automated refactorings.
+												Advised by <a href="https://cin.ufpe.br/~lmt/">Leopoldo Motta Teixeira</a>,
+												I researched how to test tools that modify TypeScript programs.
+											</p><p>
+												The result was <a href="https://github.com/gabritto/tsdolly">TSDolly</a>, a tool that generates TypeScript programs
+												which can be used as test inputs for testing tools.
+												The programs TSDolly generates satisfy preconditions imposed by the tools under test:
+												for example, to be able to test a refactoring that modifies a class,
+												we need to make sure the generated test input program actually has a class declaration.
+											</p><p>
+												TSDolly implements a technique that allows for generating programs that satisfy user-specified preconditions.
+												This technique was adapted from <a href="https://github.com/gustavoasoares/jdolly">previous work</a>
+												focused on generating Java programs suitable for testing Java automated refactorings.
+												<br>
+												To demonstrate the use of TSDolly, I used it to test some TypeScript refactorings.
+												Testing these refactorings by applying them to the TSDolly generated programs,
+												I was able to find and report a
+												<a href="https://github.com/microsoft/TypeScript/issues/40994">bug</a> in a TypeScript refactoring.
+											</p><p>
+												My thesis can be found
+												<a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_gab.pdf">here</a> (in English, abstract also in Portuguese).
+												<br>
+												As a result of this undergraduate thesis work,
+												<a href="https://cin.ufpe.br/~lmt/">my advisor Leopoldo</a>, <a href="http://www.dsc.ufcg.edu.br/~rohit/">Rohit Gheyi</a>
+												and I wrote a paper to be published in the
+												<a href="http://cbsoft2021.joinville.udesc.br/sblp.php">25th Brazilian Symposium on Programming Languages (SBLP'21)</a>.
+												A <strong>preprint</strong> can be found <a href="images/SBLP_2021_TSDolly_AuthorVersion.pdf">here</a> (in English).
+											</p>
+										</div>
 										<!-- <p>
 											During my last semester, <strong>I did research on how to check if automated refactorings preserve program behavior.
 											To address this problem, I decided to adopt a testing approach, and to focus on
@@ -129,15 +137,17 @@
 									</li>
 									<li>
 										<h2>Teaching Assistant</h2>
-										<p>
-											<strong>I was a teaching assistant for a total of 5 semesters,</strong> for the courses of
-											Discrete Mathematics (2 semesters), Algorithms and Data Structures (2 semesters),
-											and Paradigms of Computational Languages (1 semester).
-											<br>
-											During that time, I taught extra classes, answered students' questions,
-											and came up with some extra assignments for the students to practice and learn.
-											I really enjoyed this experience of helping other students and giving back by sharing what I learned.
-										</p>
+										<div class="txt">
+											<p>
+												<strong>I was a teaching assistant for a total of 5 semesters,</strong> for the courses of
+												Discrete Mathematics (2 semesters), Algorithms and Data Structures (2 semesters),
+												and Paradigms of Computational Languages (1 semester).
+												<br>
+												During that time, I taught extra classes, answered students' questions,
+												and came up with some extra assignments for the students to practice and learn.
+												I really enjoyed this experience of helping other students and giving back by sharing what I learned.
+											</p>
+										</div>
 									</li>
 								</ul>
 								<!-- <footer class="major">
@@ -153,111 +163,127 @@
 									<h2>Industry</h2>
 								</header>
 								<h2>Current</h2>
-								<p>
-									I currently work on the <strong>TypeScript team at Microsoft</strong>, as a Software Engineer. 
-								</p>
+								<div class="txt">
+									<p>
+										I currently work on the <strong>TypeScript team at Microsoft</strong>, as a Software Engineer. 
+									</p>
+								</div>
 								<h2>Internships</h2>
-								<p>
-									While I was a student, I worked as a Software Engineer Intern several times:
-								</p>
+								<div class="txt">
+									<p>
+										While I was a student, I worked as a Software Engineer Intern several times:
+									</p>
+								</div>
 								<ul class="alt">
 									<li>
 										<h2>TypeScript Compiler, Microsoft</h2>
-										<p>
-											<span class="icon fa fa-calendar" aria-hidden="true"></span> December 2019 - March 2020
-										</p>
-										<p>
-											<strong>I worked on improving <a href="https://github.com/DefinitelyTyped/dts-critic">dts-critic</a>,
-											a tool that checks the compatibility between a
-											TypeScript declaration file (a declarations-only file declaring variables, functions etc, and their types)
-											and a JavaScript library.</strong>
-											<br>I contributed additional checks for some of JavaScript's many ways to specify modules,
-											and their corresponding declaration pattern in TypeScript.
-											<br>dts-critic is used on the 
-											<a>DefinitelyTyped</a> repository, an open source collection of TypeScript declarations for JavaScript libraries,
-											written by the TypeScript community.
-											The tool runs as a part of the tests that are executed for every contribution to DefinitelyTyped,
-											aiming to improve the quality of contributed declarations.
-										</p>
+										<div class="txt">
+											<p>
+												<span class="icon fa fa-calendar" aria-hidden="true"></span> December 2019 - March 2020
+											</p>
+											<p>
+												<strong>I worked on improving <a href="https://github.com/DefinitelyTyped/dts-critic">dts-critic</a>,
+												a tool that checks the compatibility between a
+												TypeScript declaration file (a declarations-only file declaring variables, functions etc, and their types)
+												and a JavaScript library.</strong>
+												<br>
+												I contributed additional checks for some of JavaScript's many ways to specify modules,
+												and their corresponding declaration pattern in TypeScript.
+												<br>
+												dts-critic is used on the 
+												<a>DefinitelyTyped</a> repository, an open source collection of TypeScript declarations for JavaScript libraries,
+												written by the TypeScript community.
+												The tool runs as a part of the tests that are executed for every contribution to DefinitelyTyped,
+												aiming to improve the quality of contributed declarations.
+											</p>
+										</div>
 									</li>
 									<li>
 										<h2>TypeScript Compiler, Microsoft</h2>
-										<p>
-											<span class="icon fa fa-calendar" aria-hidden="true"></span> January 2019 - March 2019
-										</p>
-										<p>
-											<strong>I developed a 
-											<a href="https://github.com/microsoft/TypeScript/pull/30089">TypeScript refactoring</a> for emulating the 
-											<a href="https://en.wikipedia.org/wiki/Named_parameter">named parameters</a> language feature</strong>
-											(also known as named arguments or keyword arguments).
-											<br>
-											JavaScript, and therefore TypeScript, does not provide builtin support for named parameters.
-											A way to emulate this feature is to use an object as a function's parameter,
-											where each of the object's properties is a named/keyword parameter.
-											Then, the function can be called with an object argument, where each property of this argument object corresponds to a named (keyword) argument.
-										</p>
-										An illustrative example is that this refactoring would convert the code
-										<div class="content">
-											<pre>
-												<code>function getName(firstName: string, lastName: string) {
-	return firstName + " " + lastName;
-}
-getName("Barbara", "Liskov");</code>
-											</pre>
+										<div class="txt">
+											<p>
+												<span class="icon fa fa-calendar" aria-hidden="true"></span> January 2019 - March 2019
+											</p>
+											<p>
+												<strong>I developed a 
+												<a href="https://github.com/microsoft/TypeScript/pull/30089">TypeScript refactoring</a> for emulating the 
+												<a href="https://en.wikipedia.org/wiki/Named_parameter">named parameters</a> language feature</strong>
+												(also known as named arguments or keyword arguments).
+												<br>
+												JavaScript, and therefore TypeScript, does not provide builtin support for named parameters.
+												A way to emulate this feature is to use an object as a function's parameter,
+												where each of the object's properties is a named/keyword parameter.
+												Then, the function can be called with an object argument, where each property of this argument object corresponds to a named (keyword) argument.
+											</p>
+											An illustrative example is that this refactoring would convert the code
+											<div class="content">
+												<pre>
+													<code>function getName(firstName: string, lastName: string) {
+		return firstName + " " + lastName;
+	}
+	getName("Barbara", "Liskov");</code>
+												</pre>
+											</div>
+											into
+											<div class="content">
+												<pre>
+													<code>function getName({ firstName: string, lastName: string }) {
+		return firstName + " " + lastName;
+	}
+	getName({ firstName: "Barbara", lastName: "Liskov" });</code>
+												</pre>
+											</div>
+											</p>
 										</div>
-										into
-										<div class="content">
-											<pre>
-												<code>function getName({ firstName: string, lastName: string }) {
-	return firstName + " " + lastName;
-}
-getName({ firstName: "Barbara", lastName: "Liskov" });</code>
-											</pre>
-										</div>
-										</p>
 									</li>
 									<li>
 										<h2>Test Infrastructure, Facebook</h2>
-										<p>
-											<span class="icon fa fa-calendar" aria-hidden="true"></span> September 2019 - November 2019
-										</p>
-										<p>
-											<strong>I implemented a concurrent caching service in Rust.</strong>
-											The service was part of the internal test infrastructure.
-											<br>
-											<strong>The main purpose of my internship was to 
-											assess the viability of implementing testing infrastructure services in Rust.</strong>
-											Before my internship, no one on the team had used Rust.
-											<br>
-											At the end of my internship, I reported on the state of the Rust ecosystem,
-											including the state of Rust's async/away features (on alpha at the time of my internship),
-											libraries, and Rust tooling.
-											I also reported on the state of internal Rust libraries,
-											what was already done and what still had to be improved before the team would adopt Rust.
-										</p>
+										<div class="txt">
+											<p>
+												<span class="icon fa fa-calendar" aria-hidden="true"></span> September 2019 - November 2019
+											</p>
+											<p>
+												<strong>I implemented a concurrent caching service in Rust.</strong>
+												The service was part of the internal test infrastructure.
+												<br>
+												<strong>The main purpose of my internship was to 
+												assess the viability of implementing testing infrastructure services in Rust.</strong>
+												Before my internship, no one on the team had used Rust.
+												<br>
+												At the end of my internship, I reported on the state of the Rust ecosystem,
+												including the state of Rust's async/away features (on alpha at the time of my internship),
+												libraries, and Rust tooling.
+												I also reported on the state of internal Rust libraries,
+												what was already done and what still had to be improved before the team would adopt Rust.
+											</p>
+										</div>
 									</li>
 									<li>
 										<h2>Abuse Fighting Infrastructure, Google</h2>
-										<p>
-											<span class="icon fa fa-calendar" aria-hidden="true"></span> April 2019 - July 2019
-										</p>
-										<p>
-											<strong>I reimplemented and helped redesign a service from Google's internal abuse fighting infrastructure.</strong>
-											The service was originally written in Python, and I reimplemented the redesigned version in Go,
-											resulting in a considerable efficiency gain.
-										</p>
+										<div class="txt">
+											<p>
+												<span class="icon fa fa-calendar" aria-hidden="true"></span> April 2019 - July 2019
+											</p>
+											<p>
+												<strong>I reimplemented and helped redesign a service from Google's internal abuse fighting infrastructure.</strong>
+												The service was originally written in Python, and I reimplemented the redesigned version in Go,
+												resulting in a considerable efficiency gain.
+											</p>
+										</div>
 									</li>
 									<li>
 										<h2>Reusable Components at Bing, Microsoft</h2>
-										<p>
-											<span class="icon fa fa-calendar" aria-hidden="true"></span> December 2017 - February 2018
-										</p>
-										<p>
-											<strong>I developed a front-end component used to display websites as an overlay on Bing's search results page.</strong>
-											The component displayed <a href="https://amp.dev/">AMP pages</a> to allow for fast loading times,
-											and it was displayed over the search results page to allow for easier navigation between different result pages.
-											The component was developed using C#, CSS, and TypeScript.
-										</p>
+										<div class="txt">
+											<p>
+												<span class="icon fa fa-calendar" aria-hidden="true"></span> December 2017 - February 2018
+											</p>
+											<p>
+												<strong>I developed a front-end component used to display websites as an overlay on Bing's search results page.</strong>
+												The component displayed <a href="https://amp.dev/">AMP pages</a> to allow for fast loading times,
+												and it was displayed over the search results page to allow for easier navigation between different result pages.
+												The component was developed using C#, CSS, and TypeScript.
+											</p>
+										</div>
 									</li>
 								</ul>
 							</section>
@@ -267,38 +293,43 @@ getName({ firstName: "Barbara", lastName: "Liskov" });</code>
 									<h2>Other things</h2>
 								</header>
 								<h2>Programming Languages & Tools</h2>
-								<p>
-									These are programming languages and tools I've used considerably in the past.
-									I also feel very confident that I can learn other languages if I must,
-									even languages with different paradigms.
-									<br>
-									The same applies for tools.
-								</p>
-								<p>
-									<b>Languages</b> (in order of decreasing familiarity)<b>:</b>
-									<br>
-									TypeScript, Haskell, Rust, Java, JavaScript, Python, C++ (11), C
-									<br>
-									<b>Tools:</b>
-									<br>
-									Git, VSCode, Node.js
-								</p>
-								<h2>Natural Languages</h2>
-								<p>
-									Native Portuguese, Fluent English, Beginner German (A2 level)
-								</p>
+								<div class="txt">
+									<p>
+										These are programming languages and tools I've used considerably in the past.
+										I also feel very confident that I can learn other languages if I must,
+										even languages with different paradigms.
+										The same applies for tools.
+									</p>
+									<p>
+										<b>Languages</b> (in order of decreasing familiarity)<b>:</b>
+										<br>
+										TypeScript, Haskell, Rust, Java, JavaScript, C++ (11), C, Python
+										<br>
+										<b>Tools:</b>
+										<br>
+										Git, VSCode, Node.js
+									</p>
+								</div>
+								<h2>Spoken Languages</h2>
+								<div class="txt">
+									<p>
+										Native Portuguese, Fluent English, Beginner German (A2 level)
+									</p>
+								</div>
 								<h2>Computer Science and Mathematics</h2>
-								<p>
-									Here is a (non-exhaustive) list of other topics that I am interested in 
-									and have somewhat studied before, in no specific order:
-									<br>
-									Programming Languages, Type Theory, Category Theory, Algebra, 
-									Proof Assistants (mostly <a href="https://coq.inria.fr/">Coq</a>, 
-									a tiny bit of <a href="https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html">Agda</a>), 
-									Functional Programming,
-									<a href="https://alloytools.org/">Alloy</a> (a modeling language and model finder),
-									Refactorings.
-								</p>
+								<div class="txt">
+									<p>
+										Here is a (non-exhaustive) list of other topics that I am interested in 
+										and have somewhat studied before, in no specific order:
+										<br>
+										Programming Languages, Type Theory, Category Theory, Algebra, 
+										Proof Assistants (mostly <a href="https://coq.inria.fr/">Coq</a>, 
+										a tiny bit of <a href="https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html">Agda</a>), 
+										Functional Programming,
+										<a href="https://alloytools.org/">Alloy</a> (a modeling language and model finder),
+										Refactorings.
+									</p>
+								</div>
 							</section>
 
 							<section id="contact" class="main special">
